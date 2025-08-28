@@ -33,6 +33,7 @@ def fetch():
     ent_fname.insert(0,lst[0])
     ent_lname.insert(0,lst[1])
 
+print('**************')
 
 #==========label=============================================
 
