@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 win = Tk()
 win.geometry('400x300')
-win.config(bg = '#fa3456')
+win.config(bg = '#aaa')
 #==========Function=============================================
 def insert():
     fname = ent_fname.get()
@@ -34,6 +34,7 @@ def fetch():
     ent_lname.insert(0,lst[1])
 
 print('**************')
+print('######################')
 
 #==========label=============================================
 
